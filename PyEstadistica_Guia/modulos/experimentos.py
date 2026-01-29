@@ -4,6 +4,7 @@ from utils import consola
 
 def ejecutar():
     consola.leer_concepto('[EXPERIMENTO]')
+    consola.pausar()
     while True:
         consola.mostrar_encabezado("EXPERIMENTOS ALEATORIOS")
         print("1. Lanzar Moneda")

@@ -3,6 +3,7 @@ from utils import consola
 
 def ejecutar():
     consola.leer_concepto('[PROBABILIDAD]')
+    consola.pausar()
     while True:
         consola.mostrar_encabezado("CÁLCULO DE PROBABILIDADES")
         print("1. Probabilidad Simple")

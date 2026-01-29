@@ -65,7 +65,7 @@ def leer_concepto(tag):
                         
         if contenido_encontrado:
             # Renderizado de Tarjeta ASCII
-            ancho = 60
+            ancho = 70
             borde_h = "═" * ancho
             titulo = f" {emoji} CONCEPTOS: {key_limpia} "
             
