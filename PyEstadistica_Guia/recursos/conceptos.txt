@@ -1,0 +1,15 @@
+[MEDIA]
+DEFINICIÓN: Valor representativo de un conjunto de datos (Promedio).
+FÓRMULA: Suma de datos / Cantidad total.
+USO: Para encontrar el centro matemático. Sensible a valores extremos.
+[MEDIANA] DEFINICIÓN: Valor central de los datos cuando están ordenados de menor a mayor. CLAVE: Si hay dos valores centrales, se promedian. No le afectan los extremos.
+
+[MODA] DEFINICIÓN: El valor que más se repite en el grupo. CLAVE: Puede haber más de una moda (Bimodal) o ninguna (Amodal).
+
+[COMBINACIONES] CONCEPTO: Agrupar elementos donde el ORDEN NO IMPORTA. CLAVE: ¿Es lo mismo "Manzana y Pera" que "Pera y Manzana"? SÍ -> Es Combinación. FÓRMULA: nCr = n! / (r! * (n-r)!)
+
+[PERMUTACIONES] CONCEPTO: Ordenar elementos donde el ORDEN SÍ IMPORTA. CLAVE: ¿Es lo mismo "1ro Juan, 2do Ana" que "1ro Ana, 2do Juan"? NO -> Es Permutación. FÓRMULA: nPr = n! / (n-r)!
+
+[EXPERIMENTO] DEFINICIÓN: Proceso con resultado incierto (azar). ESPACIO MUESTRAL (S): Lista de todos los resultados posibles. EJEMPLO: Dado S = {1, 2, 3, 4, 5, 6}.
+
+[PROBABILIDAD] DEFINICIÓN: Qué tan posible es que ocurra un evento (0 = Imposible, 1 = Seguro). SIMPLE: P(A) = Favorables / Totales. COMPUESTA: P(A y B) = P(A) * P(B) (Para eventos independientes).
